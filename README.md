@@ -8,7 +8,7 @@ The goal of this R package is to partition a bipartite network into non-overlapp
 Installation
 ------------
 
-You can install the released version of BipartiteModularityMaximization from [GitHub](https://github.com/UTMB-DIVA-Lab/BipartiteModularityMaximization) with:
+You can install the released version of BipartiteModularityMaximization from [GitHub](https://github.com/DIVA-Lab-UTMB/BipartiteModularityMaximization) with:
 
 ``` r
 install.packages("devtools")
