@@ -3,12 +3,12 @@ Title: Partition bipartite network into non-overlapping biclusters by optimizing
 Version: 0.1.0.0000
 Authors@R: 
     c(person(given = "Tianlong",
-           family = "Chen",
-           role = c("aut"),),
+            family = "Chen",
+            role = c("aut"),),
     person(given = "Weibin",
-           family = "Zhang",
-           role = c( "cre","ctb"),
-           email = "wbzhang.ustc@gmail.com"))
+            family = "Zhang",
+            role = c( "cre","ctb"),
+            email = "wbzhang.ustc@gmail.com"))
 Author: Tianlong Chen, Weibin Zhang <wbzhang.ustc@gmail.com>
 Maintainer: Weibin Zhang <wbzhang.ustc@gmail.com>
 Description: This package contains a function that partitions a bipartite network into non-overlapping biclusters by maximizing bipartite modularity defined in Barber (2007) <doi:10.1103/PhysRevE.76.066102> using the bipartite version of the algorithm described in Treviño (2015) <doi:10.1088/1742-5468/2015/02/p02003>. 
