@@ -11,8 +11,8 @@ Installation
 You can install the released version of BipartiteModularityMaximization from [GitHub](https://github.com/DIVA-Lab-UTMB/BipartiteModularityMaximization) with:
 
 ``` r
-install.packages("devtools")
-devtools::install_github("DIVA-Lab-UTMB/BipartiteModularityMaximization")
+install.packages("remotes")
+remotes::install_github("DIVA-Lab-UTMB/BipartiteModularityMaximization")
 ```
 
 Example

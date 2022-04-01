@@ -25,4 +25,4 @@ RoxygenNote: 6.1.1
 Depends: R (>= 2.10)
 Suggests: testthat
 NeedsCompilation: yes
-Packaged: 2022-04-01 00:05:21 UTC; weibzhan
+Packaged: 2022-04-01 00:38:01 UTC; weibzhan
