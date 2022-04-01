@@ -12,7 +12,7 @@ You can install the released version of BipartiteModularityMaximization from [Gi
 
 ``` r
 install.packages("devtools")
-devtools::install_github("UTMB-DIVA-Lab/BipartiteModularityMaximization")
+devtools::install_github("DIVA-Lab-UTMB/BipartiteModularityMaximization")
 ```
 
 Example
