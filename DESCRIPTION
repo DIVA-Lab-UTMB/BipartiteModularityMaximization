@@ -1,7 +1,7 @@
 Package: BipartiteModularityMaximization
 Title: Partition bipartite network into non-overlapping biclusters by optimizing bipartite modularity
 Version: 0.1.0.0000
-Authors@R: 
+Authors@R:
 	c(person(given = "Tianlong",
 			family = "Chen",
 			role = c("aut"),),
