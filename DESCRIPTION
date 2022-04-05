@@ -1,10 +1,10 @@
 Package: BipartiteModularityMaximization
-Title: Partition bipartite network into non-overlapping biclusters by optimizing bipartite modularity
-Version: 0.1.0.0000
+Title: Partition Bipartite Network into Non-Overlapping Biclusters by Optimizing Bipartite Modularity
+Version: 0.1.220405.1
 Authors@R: c(person(given = "Tianlong",family = "Chen",role = c("aut"),),person(given = "Weibin",family = "Zhang",role = c( "cre","ctb"),email = "wbzhang.ustc@gmail.com"))
-Author: Tianlong Chen, Weibin Zhang <wbzhang.ustc@gmail.com>
+Author: Tianlong Chen [aut], Weibin Zhang [cre, ctb]
 Maintainer: Weibin Zhang <wbzhang.ustc@gmail.com>
-Description: This package contains a function that partitions a bipartite network into non-overlapping biclusters by maximizing bipartite modularity defined in Barber (2007) <doi:10.1103/PhysRevE.76.066102> using the bipartite version of the algorithm described in Treviño (2015) <doi:10.1088/1742-5468/2015/02/p02003>. 
+Description: Function bipmod that partitions a bipartite network into non-overlapping biclusters by maximizing bipartite modularity defined in Barber (2007) \doi{10.1103/PhysRevE.76.066102} using the bipartite version of the algorithm described in Treviño (2015) \doi{10.1088/1742-5468/2015/02/p02003}. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -14,4 +14,4 @@ RoxygenNote: 6.1.1
 Depends: R (>= 2.10)
 Suggests: testthat
 NeedsCompilation: yes
-Packaged: 2022-04-01 21:17:15 UTC; weibzhan
+Packaged: 2022-04-05 23:45:35 UTC; weibzhan

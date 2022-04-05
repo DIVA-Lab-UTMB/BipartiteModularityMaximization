@@ -3,7 +3,7 @@
 BipartiteModularityMaximization
 ===============================
 
-The goal of this R package is to partition a bipartite network into non-overlapping biclusters by maximizing bipartite modularity defined in Barber (2007) <doi:10.1103/PhysRevE.76.066102> using the bipartite version of the algorithm described in Treviño (2015) <doi:10.1088/1742-5468/2015/02/p02003>.
+The goal of this R package is to partition a bipartite network into non-overlapping biclusters by maximizing bipartite modularity defined in [Barber (2007)](https://doi.org/10.1103/PhysRevE.76.066102) using the bipartite version of the algorithm described in [Treviño (2015)](https://doi.org/10.1088/1742-5468/2015/02/p02003).
 
 Installation
 ------------
@@ -49,4 +49,4 @@ Please read the documentation using `?bipmod` or `?example_data` for more detail
 Related library
 ---------------
 
-The biclusters can be visualized using ExplodeLayout [epl](https://github.com/UTMB-DIVA-Lab/epl) described in <http://www.skbhavnani.com/DIVA/papers/Dang-et-al-AMIA-Demo-2016.pdf>.
+The biclusters can be visualized using ExplodeLayout [epl](https://github.com/UTMB-DIVA-Lab/epl) described in [Bhavnani (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543384/pdf/2613038.pdf).
