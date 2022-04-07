@@ -9,7 +9,7 @@
 #' @param ITER Number of iterations.
 #' @return MODULARITY Modularity value.
 #' @return ASSIGN Partition of rows and columns.
-#' @export
+#' @keywords internal
 CoClust <- function(nr, nc, data, ITER) {
     .Call(`_BipartiteModularityMaximization_CoClust`, nr, nc, data, ITER)
 }

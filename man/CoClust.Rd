@@ -23,3 +23,4 @@ ASSIGN Partition of rows and columns.
 \description{
 C++ code to to partition a bipartite network into non-overlapping biclusters, by optimizing bipartite modularity.
 }
+\keyword{internal}

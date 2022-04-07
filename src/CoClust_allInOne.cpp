@@ -89,7 +89,7 @@ comstruct barber(double (*rng)(void), int run, double **a, int na, int nt) {
 		m=m+k[i];
 	}
 	if (fabs(m)<1e-6) {
-		printf("Adjacency matrix is 0!!");
+		Rprintf("Adjacency matrix is 0!!");
 		return result;
 	}
 
@@ -106,7 +106,7 @@ comstruct barber(double (*rng)(void), int run, double **a, int na, int nt) {
 		}
 
 	if (flag==0) {
-		printf("Modularity matrix is 0!");
+		Rprintf("Modularity matrix is 0!");
 		return result;
 	}
 
@@ -132,6 +132,7 @@ comstruct barber(double (*rng)(void), int run, double **a, int na, int nt) {
 
 
 		while (max2-max1>toler) {
+		  Rcpp::checkUserInterrupt();// check interrupt in R
 			max1=max2;
 			ngtemp=ng;
 
@@ -185,7 +186,7 @@ comstruct barber(double (*rng)(void), int run, double **a, int na, int nt) {
 			max2=Q;
 
 		}
-		//printf("Run #%d, Modularity is %15.10f\n", ii+1, Q);
+		//Rprintf("Run #%d, Modularity is %15.10f\n", ii+1, Q);
 		if (Q>Qmax) {
 			Qmax=Q;
 			for (i=0; i<ng; i++)
@@ -936,7 +937,7 @@ void con_to_G(int *con, int n, int *ng, int *gs, int **G) {
 //' @param ITER Number of iterations.
 //' @return MODULARITY Modularity value.
 //' @return ASSIGN Partition of rows and columns.
-//' @export
+//' @keywords internal
 // [[Rcpp::export]]
 List CoClust(int nr, int nc, NumericVector data, int ITER)
 {

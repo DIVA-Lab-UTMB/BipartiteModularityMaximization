@@ -3,7 +3,7 @@
 BipartiteModularityMaximization
 ===============================
 
-The goal of this R package is to partition a bipartite network into non-overlapping biclusters by maximizing bipartite modularity defined in [Barber (2007)](https://doi.org/10.1103/PhysRevE.76.066102) using the bipartite version of the algorithm described in [Treviño (2015)](https://doi.org/10.1088/1742-5468/2015/02/p02003).
+The goal of this R package is to partition a bipartite network into non-overlapping biclusters by maximizing bipartite modularity defined in [Barber (2007)](https://doi.org/10.1103/PhysRevE.76.066102) using the bipartite version of the algorithm described in [Treviño (2015)](https://doi.org/10.1088/1742-5468/2015/02/P02003).
 
 Installation
 ------------
