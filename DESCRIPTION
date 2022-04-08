@@ -1,6 +1,6 @@
 Package: BipartiteModularityMaximization
 Title: Partition Bipartite Network into Non-Overlapping Biclusters by Optimizing Bipartite Modularity
-Version: 1.22.0407.2
+Version: 1.22.407.2
 Authors@R: c(person(given = "Tianlong",family = "Chen",role = c("aut"),),person(given = "Weibin",family = "Zhang",role = c( "cre","ctb"),email = "wbzhang.ustc@gmail.com"))
 Author: Tianlong Chen [aut], Weibin Zhang [cre, ctb]
 Maintainer: Weibin Zhang <wbzhang.ustc@gmail.com>
@@ -14,4 +14,4 @@ RoxygenNote: 6.1.1
 Depends: R (>= 2.10)
 Suggests: testthat
 NeedsCompilation: yes
-Packaged: 2022-04-07 22:39:09 UTC; weibzhan
+Packaged: 2022-04-08 15:03:28 UTC; weibzhan
