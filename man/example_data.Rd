@@ -4,7 +4,8 @@
 \name{example_data}
 \alias{example_data}
 \title{Example dataset of a bipartite network.}
-\format{A data frame with 798 rows and 8 binary variables:
+\format{
+A data frame with 798 rows and 8 binary variables:
 \describe{
   \item{Symptom_1}{}
   \item{Symptom_2}{}
@@ -14,7 +15,8 @@
   \item{Symptom_6}{}
   \item{Symptom_7}{}
   \item{Symptom_8}{}
-}}
+}
+}
 \usage{
 example_data
 }
