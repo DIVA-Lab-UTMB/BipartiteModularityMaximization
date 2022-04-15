@@ -37,7 +37,7 @@ or [R](https://cran.r-project.org/doc/manuals/r-devel/R-admin.pdf).
 Use the following command to install the released version of the package
 from
 [CRAN](https://cran.r-project.org/web/packages/BipartiteModularityMaximization/),
-where a pre-compiled “binary packages” might be available.
+where pre-compiled “binary packages” might be available.
 
 ``` r
 install.packages("BipartiteModularityMaximization")
