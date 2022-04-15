@@ -1,38 +1,66 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-BipartiteModularityMaximization
-===============================
 
-The goal of this R package is to partition a bipartite network into non-overlapping biclusters by maximizing bipartite modularity defined in [Barber (2007)](https://doi.org/10.1103/PhysRevE.76.066102) using the bipartite version of the algorithm described in [Treviño (2015)](https://doi.org/10.1088/1742-5468/2015/02/P02003).
+# BipartiteModularityMaximization
 
-Installation
-------------
+The goal of this R package is to partition a bipartite network into
+non-overlapping biclusters by maximizing bipartite modularity defined in
+[Barber (2007)](https://doi.org/10.1103/PhysRevE.76.066102) using the
+bipartite version of the algorithm described in [Treviño
+(2015)](https://doi.org/10.1088/1742-5468/2015/02/P02003).
 
-The package contains C/C++ code that needs to be compiled.
+## Installation
 
-For Windows users, please download and install [Rtools](https://cran.r-project.org/bin/windows/Rtools/rtools40.html), and add it to `PATH` by the follwing command:
+### Environment
+
+The package contains C/C++ code that needs compilation.
+
+-   For Windows users, please download and install
+    [Rtools](https://cran.r-project.org/bin/windows/Rtools/rtools40.html),
+    and add it to `PATH` by the follwing command:
 
 ``` r
 write('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', file = "~/.Renviron", append = TRUE)
 ```
 
-Mac users can install Xcode from the Mac AppStore.
+-   Mac users can install Xcode from the Mac AppStore.
 
-Linux users can install a compiler and various development libraries (details vary across differnet flavors of Linux).
+-   Linux users can install a compiler and various development libraries
+    (details vary across different flavors of Linux).
 
-More details can be found in documents of [RStudio](https://support.rstudio.com/hc/en-us/articles/200486498-Package-Development-Prerequisites) or [R](https://cran.r-project.org/doc/manuals/r-devel/R-admin.pdf).
+More details can be found in documents of
+[RStudio](https://support.rstudio.com/hc/en-us/articles/200486498-Package-Development-Prerequisites)
+or [R](https://cran.r-project.org/doc/manuals/r-devel/R-admin.pdf).
 
-Once you set up the compiler, you can install the released version of BipartiteModularityMaximization from [GitHub](https://github.com/DIVA-Lab-UTMB/BipartiteModularityMaximization) with:
+### Installation from CRAN
+
+Use the following command to install the released version of the package
+from
+[CRAN](https://cran.r-project.org/web/packages/BipartiteModularityMaximization/),
+where a pre-compiled “binary packages” might be available.
+
+``` r
+install.packages("BipartiteModularityMaximization")
+```
+
+### Installation from GitHub
+
+Once you set up the compiler, you can install the latest version of the
+package from
+[GitHub](https://github.com/DIVA-Lab-UTMB/BipartiteModularityMaximization)
+with:
 
 ``` r
 install.packages("remotes")
 remotes::install_github("DIVA-Lab-UTMB/BipartiteModularityMaximization")
 ```
 
-Example
--------
+## Example
 
-This is a basic example which shows you how to use the main function `bipmod` (short for bipartite modularity) to partition the example bipartite network (represented as an incidence matrix of 798 rows and 8 columns):
+This is a basic example which shows you how to use the main function
+`bipmod` (short for bipartite modularity) to partition the example
+bipartite network (represented as an incidence matrix of 798 rows and 8
+columns):
 
 ``` r
 ## basic example code
@@ -55,12 +83,13 @@ str(Q_part)
 #>  $ ASSIGN    : int [1:806] 2 2 2 4 4 2 3 2 4 2 ...
 ```
 
-Documentation
--------------
+## Documentation
 
-Please read the documentation using `?bipmod` or `?example_data` for more details.
+Please read the documentation using `?bipmod` or `?example_data` for
+more details.
 
-Related library
----------------
+## Related library
 
-The biclusters can be visualized using ExplodeLayout [epl](https://github.com/UTMB-DIVA-Lab/epl) described in [Bhavnani (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543384/pdf/2613038.pdf).
+The biclusters can be visualized using ExplodeLayout
+[epl](https://github.com/UTMB-DIVA-Lab/epl) described in [Bhavnani
+(2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543384/pdf/2613038.pdf).
