@@ -90,6 +90,12 @@ more details.
 
 ## Related library
 
-The biclusters can be visualized using ExplodeLayout
+The biclusters can be visualized using
+[ExplodeLayout](https://github.com/DIVA-Lab-UTMB/ExplodeLayout) or
 [epl](https://github.com/UTMB-DIVA-Lab/epl) described in [Bhavnani
 (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543384/pdf/2613038.pdf).
+A more convenient wrapper of
+[BipartiteModularityMaximization](https://github.com/DIVA-Lab-UTMB/BipartiteModularityMaximization)
+and [ExplodeLayout](https://github.com/DIVA-Lab-UTMB/ExplodeLayout) can
+be found in
+[UtilitiesDIVA](https://github.com/DIVA-Lab-UTMB/UtilitiesDIVA).

@@ -1,6 +1,12 @@
 Version History
 ===============
 
+Version 1.23.106.1
+------------------
+
+* Updated related libraries.
+
+
 Version 1.23.15.1
 ------------------
 
