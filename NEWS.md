@@ -1,6 +1,12 @@
 Version History
 ===============
 
+Version 1.23.15.1
+------------------
+
+* Updated authors.
+
+
 Version 1.22.415.1
 ------------------
 
