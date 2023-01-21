@@ -1,6 +1,12 @@
 Version History
 ===============
 
+Version 1.23.120.1
+------------------
+
+* Updated hyperlink.
+
+
 Version 1.23.106.1
 ------------------
 
