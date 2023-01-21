@@ -29,7 +29,7 @@ write('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', file = "~/.Renviron", append 
     (details vary across different flavors of Linux).
 
 More details can be found in documents of
-[RStudio](https://support.rstudio.com/hc/en-us/articles/200486498-Package-Development-Prerequisites)
+[RStudio](https://support.posit.co/hc/en-us/articles/200486498-Package-Development-Prerequisites)
 or [R](https://cran.r-project.org/doc/manuals/r-devel/R-admin.pdf).
 
 ### Installation from CRAN
